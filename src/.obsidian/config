@@ -1,0 +1,85 @@
+{
+  "theme": "obsidian",
+  "pluginEnabledStatus": {
+    "File explorer": true,
+    "Search": true,
+    "Quick switcher": true,
+    "Graph view": true,
+    "Backlinks": true,
+    "Command palette": true,
+    "Markdown format importer": true,
+    "Word count": true
+  },
+  "workspaceLayout": {
+    "id": "85cf424717020a4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "de0ae317e1850ae2",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "leftSidedock": {
+    "id": "a6e43bda84e3cc4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "4fa3c747887fe7a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f5f471f023e6cea",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "246f118df9c5932a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "rightSidedock": {
+    "id": "fcc601f8794c64f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ece68c19434dc41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9162448c41537335",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Untitled.md"
+  ]
+}
