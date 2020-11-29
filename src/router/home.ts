@@ -7,7 +7,7 @@ export default {
         {
             path: '/home',
             name: 'home',
-            meta: { keepAlive: true },
+            meta: { keepAlive: false },
             component: () => import('@/views/home/index.vue')
         },
         {
