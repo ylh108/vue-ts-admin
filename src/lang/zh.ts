@@ -1,6 +1,6 @@
 const LANG = {
     login: {
-        title: 'VueCli3.0',
+        title: '管理系统模板',
         username: '用户名',
         password: '密码',
         placeholderUsername: '请输入用户名',

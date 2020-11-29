@@ -1,6 +1,6 @@
 const LANG = {
     login: {
-        title: 'vue + cli3.0',
+        title: 'template',
         username: 'username',
         password: 'password',
         placeholderUsername: 'Please input a username',

@@ -15,7 +15,7 @@ const router = new Router({
         {
             path: '/login',
             name: 'login',
-            meta: { keepAlive: true },
+            meta: { keepAlive: false },
             component: () => import('@/views/login/index.vue')
         },
         { ...Home },

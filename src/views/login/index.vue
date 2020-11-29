@@ -4,7 +4,7 @@
             <h3 class="title">
                 {{ $t('login.title') }}
             </h3>
-            <lang-select class="set-language" @langChange="langChange" />
+            <lang-select class="set-language" />
         </div>
         <el-form :model="loginForm" :rules="loginRules" ref="loginForm" label-width="100px" @keyup.native.enter="handleLogin">
             <el-form-item :label="$t('login.username')" prop="username">
@@ -36,14 +36,6 @@ export default class Login extends Vue {
     private loginForm: any = {
         username: '',
         password: ''
-    }
-
-    langChange () {
-        ;(this.$refs.loginForm as ElForm).validate(async (valid: boolean) => {
-            if (!valid) {
-                this.handleLogin()
-            }
-        })
     }
 
     vUsername (rule: object, value: string, callback: Function) {
