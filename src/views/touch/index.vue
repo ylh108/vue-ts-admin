@@ -49,7 +49,7 @@ export default class Touch extends Vue {
     addEventMouseMove () {
         document.addEventListener('mousemove', (e:any) => {
             if (!e.target.className.includes('touch-content')) {
-                this.data.drag.isDrag = false
+                // this.data.drag.isDrag = false
             }
         })
     }

@@ -136,7 +136,6 @@ export default class UploadImage extends Vue {
         }
         // this.imgsLoading = true
         // 创建form对象
-        debugger
         let params = new FormData()
         for (let i = 0; i < this.pictures.length; i++) {
             params.append(

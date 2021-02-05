@@ -8,6 +8,7 @@ const TREEDATA = [
     { path: '/pdf', name: 'PDF', icon: 'el-icon-s-promotion', code: '6', parentCode: '0', weight: 1 },
     { path: '/echarts', name: 'echarts图表', icon: 'el-icon-wind-power', code: '7', parentCode: '0', weight: 1 },
     { path: '/uploadimgDrop', name: '上传图片（Drop）', icon: 'el-icon-picture-outline', code: '8', parentCode: '0', weight: 1 },
+    { path: '/copy', name: '复制', icon: 'el-icon-document-copy', code: '9', parentCode: '0', weight: 1 },
     //  第一级父节点树菜单结构 end /
 
     //  第二级子节点树菜单结构 begin /

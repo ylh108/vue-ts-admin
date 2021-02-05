@@ -11,6 +11,12 @@ export default {
             component: () => import('@/views/home/index.vue')
         },
         {
+            path: '/copy',
+            name: 'copy',
+            meta: { keepAlive: false },
+            component: () => import('@/views/copy/index.vue')
+        },
+        {
             path: '/touch',
             name: 'touch',
             meta: { keepAlive: true },
