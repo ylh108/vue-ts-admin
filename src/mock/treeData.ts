@@ -34,7 +34,7 @@ const TREEDATA = [
     //  第三级子节点树菜单结构 begin /
     { path: '/routeNest/table/pages', name: '三级页面', icon: 'none', code: '311', parentCode: '31', weight: 3 },
     { path: '/routeNest/table/amount', name: '总计', icon: 'none', code: '312', parentCode: '31', weight: 3 },
-    { path: '/routeNest/table/AmountMax', name: '不能大于总计', icon: 'none', code: '313', parentCode: '31', weight: 4 },
+    { path: '/routeNest/table/AmountMax', name: '不能大于总计', icon: 'none', code: '313', parentCode: '31', weight: 3 },
     //  第三级子节点树菜单结构 end /
 
     //  第四级子节点树菜单结构 begin /

@@ -27,7 +27,7 @@ import Tags from '@/layouts/components/Tags.vue'
 import Content from '@/layouts/components/Content.vue'
 import Footer from '@/layouts/components/Footer.vue'
 import store from '@/store'
-import { sliderZoom } from '@/layouts/common/media.ts'
+import { sliderZoom } from '@/layouts/common/media'
 
 @Component({
     components: {

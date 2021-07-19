@@ -1,6 +1,5 @@
 <template>
     <div>
-        <!-- <helloWorld :list ="list"></helloWorld> -->
         <helloWorld :formDate="formDatelist"></helloWorld>
     </div>
 </template>

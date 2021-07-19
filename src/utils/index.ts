@@ -1,5 +1,5 @@
 
-import parseTime from '@/filters/parseTime.ts'
+import parseTime from '@/filters/parseTime'
 /**
  * 数组对象去重
  * @param arr 数组

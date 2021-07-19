@@ -24,7 +24,7 @@ const parseNumber = (value: string, isNegative: boolean = true, isDecimal: boole
             val = `${s[0]}.${s[1].slice(0, 2)}`
         }
     }
-    if (val.length > 1 && val.indexOf('0') === 0) {
+    if (val.length > 1 && val.indexOf('0') === 0 && val.indexOf('.') !== 1) {
         val = val.substring(1)
     }
     if (key) {

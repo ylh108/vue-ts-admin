@@ -51,7 +51,7 @@ import router from '@/router'
 import { Component, Vue, Emit, Prop, Watch } from 'vue-property-decorator'
 import LangSelect from '@/components/LangSelect/index.vue'
 import store from '@/store'
-import { sliderZoom } from '@/layouts/common/media.ts'
+import { sliderZoom } from '@/layouts/common/media'
 
 @Component({
     components: {

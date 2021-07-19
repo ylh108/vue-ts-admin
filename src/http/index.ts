@@ -1,5 +1,5 @@
 import axios from 'axios'
-import config from '@/config/index.ts'
+import config from '@/config/index'
 
 if (process.env.NODE_ENV === 'development') { // 开发环境
     axios.defaults.baseURL = config.DEVELOPMENT

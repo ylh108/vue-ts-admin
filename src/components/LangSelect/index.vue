@@ -7,7 +7,7 @@
 
 <script lang="ts">
 import { Component, Vue, Inject, Prop } from 'vue-property-decorator'
-import config from '@/config/index.ts'
+import config from '@/config'
 
 @Component
 export default class extends Vue {
